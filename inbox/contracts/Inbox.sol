@@ -10,10 +10,4 @@ contract Inbox {
     function setMessage(string newMessage) public {
         message = newMessage;
     }
-    
-    // Duplicates message() function automatically generated
-    // by public variable declaration 
-    function getMessage() public view returns (string) {
-        return message;
-    }
 }
